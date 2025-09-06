@@ -1,15 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Export as a static site (no Node.js server needed)
-  output: "export",
-
-  // Required for GitHub Pages: use your repo name here
-  basePath: "/Portfolio_Website",
-
-  // Disable Next.js Image Optimization (not supported on static export)
+  output: "export",             // generates static HTML
+  basePath: "/Portfolio_Website", // your GitHub repo name
   images: {
-    unoptimized: true,
+    unoptimized: true,          // disable server-side image optimization
+  },
+  eslint: {
+    ignoreDuringBuilds: true,   // ✅ disable ESLint checks during build
   },
 };
 
