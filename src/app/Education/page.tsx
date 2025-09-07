@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { GraduationCap, MapPin, Calendar, Award, BookOpen } from "lucide-react";
+import { GraduationCap, MapPin, Calendar, Award, BookOpen, LucideIcon } from "lucide-react";
 
 interface EducationItem {
   degree: string;
@@ -9,7 +9,7 @@ interface EducationItem {
   location: string;
   duration: string;
   details: string[];
-  icon: React.ComponentType<any>;
+  icon: LucideIcon;
 }
 
 const education: EducationItem[] = [

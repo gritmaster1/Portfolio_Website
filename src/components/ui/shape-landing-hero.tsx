@@ -1,8 +1,8 @@
 "use client";
 
-import { motion, useMotionValue,Variants, useTransform, animate } from "framer-motion";
+import { motion,Variants} from "framer-motion";
 import { Circle } from "lucide-react";
-import { useEffect, useState } from "react";
+//import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
 
