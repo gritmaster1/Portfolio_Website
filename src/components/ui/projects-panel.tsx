@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, ExternalLink, Code, Database, Brain, Globe } from "lucide-react";
+import { Github, ExternalLink, Database, Brain, Globe,LucideIcon } from "lucide-react";
 
 interface Project {
   title: string;
@@ -9,7 +9,7 @@ interface Project {
   githubUrl: string;
   liveUrl?: string;
   tech: string[];
-  icon: React.ComponentType<any>;
+  icon: LucideIcon;
 }
 
 const projects: Project[] = [

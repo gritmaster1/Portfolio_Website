@@ -78,7 +78,7 @@ export function SimpleContactForm() {
           </span>
         </h1>
         <p className="text-white/60 text-center text-lg max-w-xl mx-auto">
-          Have a question or want to work together? Send me a message and I'll get back to you as soon as possible.
+          Have a question or want to work together? Send me a message and I&apos;ll get back to you as soon as possible.
         </p>
       </motion.div>
 
@@ -188,7 +188,7 @@ export function SimpleContactForm() {
         </div>
         
         <p className="text-white/40 text-sm mt-4">
-          Click "Send Message" to open Gmail with your message pre-filled
+          Click &quot;Send Message&quot; to open Gmail with your message pre-filled
         </p>
       </motion.div>
     </div>

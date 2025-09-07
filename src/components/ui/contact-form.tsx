@@ -55,7 +55,7 @@ export function ContactForm() {
     {
       name: "Instagram",
       icon: Instagram,
-      url: "https://instagram.com/nakulreddy",
+      url: "https://instagram.com/in/nakulreddy",
       color: "hover:text-pink-400"
     },
     {
@@ -179,7 +179,7 @@ export function ContactForm() {
           
           <div className="mt-6 p-4 bg-cyan-500/10 border border-cyan-500/20 rounded-lg">
             <p className="text-cyan-300 text-sm">
-              💡 <strong>Tip:</strong> Click "Send Message" to open Gmail with your message pre-filled!
+              💡 <strong>Tip:</strong> Click &quot;Send Message&quot; to open Gmail with your message pre-filled!
             </p>
           </div>
         </motion.div>
@@ -187,4 +187,3 @@ export function ContactForm() {
     </div>
   );
 }
-
